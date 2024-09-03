@@ -1,0 +1,19 @@
+.categoryes{
+    padding: 3rem;
+}
+.categoryes .wishlist{
+    display: none;
+}
+.categoryes .price-box{
+    display: none;
+}
+.category-product{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+.indexsort p{
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 2rem;
+}

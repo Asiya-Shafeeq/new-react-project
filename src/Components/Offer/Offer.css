@@ -1,0 +1,43 @@
+.offer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 3.5rem;
+    gap: 1.5rem;
+}
+.offer .left,.right{
+    background-image: url(../Assets/bg-2.jpg);
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    border-radius: 5px;
+    padding: 3rem 2rem;
+}
+.offer .right{
+    background-image: url(../Assets/bg-3.jpg);
+    padding: 2rem;
+}
+.offer h4,h3,h6{
+    color: #fff;
+    margin-bottom: 1rem;
+}
+.offer h5{
+    color: #fff;
+}
+.offer h3{
+    font-size: 30px;
+}
+.offer h5{
+    font-size: 20px;
+}
+.offer h4{
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.offer h6{
+    font-weight: normal;
+    font-size: 15px;
+}
+.offer hr.line{
+    width: 18%;
+}

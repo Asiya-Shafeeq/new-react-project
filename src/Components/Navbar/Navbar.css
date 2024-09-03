@@ -1,0 +1,49 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 3rem;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #fff;
+}
+.navmenu{
+    display: flex;
+    gap: 2rem;
+}
+.navmenu li {
+    color: #807D7E;
+    cursor: pointer;
+}
+.navmenu hr{
+    margin-top: 10px;
+    border: none;
+    width:100% ;
+    height: 3px;
+    border-radius: 10px;
+    background-color: black;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: #F6F6F6;
+    padding: 3px 5px;
+    border-radius: 5px;
+    width: 30%;
+}
+input{
+    outline: none;
+    border: none;
+    background: transparent;
+}
+.icons{
+    display: flex;
+    gap: 1rem;
+}
+.icons li{
+    background-color: #F6F6F6;
+    padding: 8px;
+    border-radius: 5px;
+}

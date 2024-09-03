@@ -1,0 +1,16 @@
+.newarrival{
+    padding: 3rem ;
+}
+.newarrival .top {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 1rem;
+}
+.newarrival h1{
+    font-size: 30px;
+}
+.newarrival h3.text{
+    color: #000;
+    font-size: 12px;
+}

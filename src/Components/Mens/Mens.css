@@ -1,0 +1,23 @@
+.mens{
+    padding: 3rem;
+}
+.mens .top{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.mens .top h1{
+    font-size: 30px;
+}
+.mens-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
+.mens .price-box{
+    display: none;
+}
+.mens .wishlist{
+    display: none;
+}

@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    padding: 3rem;
+}
+.container_left{
+    margin-left: 11rem;
+    background-image: url(../Assets/bg-4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px 0 0 8px;
+    padding: 5rem 2rem 0 2rem;
+}
+.container_left h1{
+    color: #fff;
+    font-weight: bold;
+    font-size: 23px;
+    margin-bottom: 1rem;
+}
+.container_left p{
+    color: #fff;
+    font-weight: 200;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+.container_left button{
+    padding: 10px 30px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 10px;
+    background-color: #fff;
+}

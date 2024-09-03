@@ -1,0 +1,17 @@
+.limelight{
+    padding: 3rem;
+}
+.limelight .top{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+.limelight .top h1{
+    font-size: 30px;
+}
+.limelight-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+}
